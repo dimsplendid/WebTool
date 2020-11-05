@@ -1,0 +1,270 @@
+<!DOCTYPE html lang="zh-hant-tw">
+<html>
+  <head>
+    <title>Vega-Lite Bar Chart</title>
+    <meta charset="utf-8" />
+
+    <!--Bootstrap framework-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+    </style>
+<!--Math render-->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<meta name="discription" content="TD tools">
+<meta name="author" content="Tseng, Wei-Hsiang">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+<!--Custom Style Setting-->
+<link rel="stylesheet" href="styles.css">
+
+<!--Custom Js script-->
+<script src="myscript.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <ul id="navigation_menu" class="nav nav-tabs">
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#home">HOME</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#intro">INTRO</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#vegatest">VEGA</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#contact">CONTACT</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#about">ABOUT</a></li>
+        </ul>
+    </div>
+    
+<div class="tab-content">
+    <div id="home" class="container tab-pane active">
+<div class="Jumbotron">
+<h2 id="intro"> Intro </h2>
+<p> Hope that I can build an integrate system for our team, and make it easy to maintain. </p>
+<blockquote class="blockquote">
+    <p> 任爾東南西北風，立根原在破巖中。</p>
+    <footer class="blockquote-footer">鄭燮《竹石》 </footer>
+</blockquote>
+</div>
+
+<!-- Todo list -->
+<div class="container bg-warning" id="todo list" >
+    <div class="progress">
+        <div class="progress-bar bg-secondary" style="width: 10%">10%</div>
+    </div>
+<h2 id="todo">Todo list:</h2>
+
+<figure class="float-right">
+<a href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g"
+title="Let me intro you the cutest shark!"
+>
+<img class="rounded" id="a" src="img/a.png" style="width:205px; height:174px;" alt="a for shark">
+</a>
+<figcaption> Fig 1. - SAME desu</figcaption>
+</figure>
+
+<ol type="1">
+  <li> Simple Interpolation </li>
+  <li> U-shape calculator </li>
+  <li> EDC Data analysis </li>
+  <li> project manager & schedule generator </li>
+  <li> Database</li>
+  <li> RA form autofill
+      <ul>
+          <li> Process Condition vs. RA test items </li>
+      </ul>
+  </li>
+  <li> LCDP f value generator</li>
+  <li> Slide template (long-term: generator)</li>
+  <li> Tech Documentation 
+      <p>short-term objective: organize the data as much/soon as possible.</p>
+      <a href="td_documentation/lc.htm" role="button" class="btn btn-info">Document Example: LC</a>
+      <p>mid-term objective: documentation standarization</p>
+      <p>Long-term objective: make a bunch site just like a wikipedia</p>
+      <ul>
+          <li> LC Response Time</li>
+          <li> The principle of IS & U-shape tool
+              <p><a href="td_documentation/ushape.htm">U-shape</a></p>
+          </li>
+          <li> The process and condition of Factories
+              <p><a href="td_documentation/factory_process.htm">Factory Process</a></p>
+          </li>
+          <li> The SOP of anything...</li>
+          <li> Roadmap of supplyments...</li>
+          <li> 材料套餐 & RA result</li>
+      </ul>
+    </li>
+</ol>
+</div>
+
+<!-- Web learning/construction... -->
+<div class="container">
+<h2> <span class="badge badge-info">Web</span> Learning/Construction Resource...</h2>
+
+<p>
+<a href="https://github.com/goodjack/developer-roadmap-chinese" >
+    Web Dev. RoadMap
+</a>
+<a href="https://www.w3schools.com" >
+W3schools
+</a>
+</p>
+
+<h3> Refferences/Tools </h3>
+<ol type="1">
+    <li>Figure Generator
+    <h4>Vega-Lite</h4>
+    
+    <p> For x-y scattering, schedule bar plot...</p>
+    <p>
+    <a href="https://hackmd.io/@sysprog/arm-multitasking?fbclid=IwAR3VD9m0li7L4rlvnqTbtCy3UsCm-v6g05Efytl7bbc1kODi4wOA6nEMfqE"
+        class="btn btn-info"
+    >
+        Example
+    </a>
+    <a href="https://vega.github.io/vega-lite/docs/?fbclid=IwAR3WwDBUyZmSkXAFisdlsbRETwLBVskd3P2ZVyXCx4CkE2Jg8K_-39IZig8"
+        class="btn btn-info"
+    >
+        Documentation
+    </a>
+    </p>
+        
+    </li>
+    <li> Formula Render
+    <h4>MathJax</h4>
+    <p>
+        <a href="https://www.mathjax.org/#gettingstarted">
+            Documentation
+        </a>
+    </p>
+    <p> It's easy to make your own formula just by using <code>\[...\]</code> or <code>\(...\)</code></p>
+    <p>
+        For example, the response time of liquid crystal is relation to:
+        \[t=\frac{\gamma_1 d^2}{K_{22}}\]
+    </p>
+    <p>
+        And you can also use inline formula like this: \(E=mc^2\)
+    </p>
+    </li>
+    <li>
+        Coding Style
+        <p>to be find..., maybe latter...</p>
+        <p>Code example <code>span</code></p>
+        <code>
+        span, section, div <br/>
+        x = 2;<br/>
+        y = 3;<br/>
+        z = x + y;
+        </code>
+        <p> sample output</p>
+        <samp>
+            > z = 5
+        </samp>
+    </li>
+    <li>
+        Keyboard styel
+        <p><kbd>crtl + s</kbd></p>
+    </li>
+</ol>
+</div>
+
+<div class="container" id="test_area">
+
+<h4> Test Area</h4>
+<a onclick="changeWorld()">a</a>
+
+<h2 id="hello">Hello~</h2>
+<p>
+    <a href="td_documentation/ushape.htm" target="iframe_a">U-shape</a>
+    <a href="test_worker.html" target="iframe_a">Test worker</a>
+</p>
+
+<iframe src="demo_iframe.htm"
+    name="iframe_a"
+    title="Iframe Example"
+    style="
+        margin: 0;
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+    "
+>
+</iframe>
+
+<!-- Form -->
+<!-- the input value need test later...-->
+<h2> HTML Forms </h2>
+
+<form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br/><br/>
+  <input type="submit">
+</form>
+</div>
+
+</div>
+    <div class="container bg-white text-black">
+    <h1>Template for Embedding Vega-Lite Visualization</h1>
+    </div>
+    <!-- Container for the visualization -->
+    <div id="vegatest" class="container tab-pane active">
+    <div id="vis" class="container"></div>
+    </div>
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+        data: {
+          values: [
+            {a: 'C', b: 2},
+            {a: 'C', b: 7},
+            {a: 'C', b: 4},
+            {a: 'D', b: 1},
+            {a: 'D', b: 2},
+            {a: 'D', b: 6},
+            {a: 'E', b: 8},
+            {a: 'E', b: 4},
+            {a: 'E', b: 7}
+          ]
+        },
+        mark: 'bar',
+        encoding: {
+          y: {field: 'a', type: 'nominal'},
+          x: {
+            aggregate: 'average',
+            field: 'b',
+            type: 'quantitative',
+            axis: {
+              title: 'Average of b'
+            }
+          }
+        }
+      };
+
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#vis', vlSpec);
+    </script>
+  </body>
+</html>

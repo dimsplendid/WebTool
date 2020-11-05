@@ -1,0 +1,73 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, 微軟正黑體, Geneva, Tahoma, sans-serif;
+    /* background-image: url('img/light_bg.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+#summarytable th{
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#dir {
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+body {
+    position: relative;
+}
+
+ul.nav-pills {
+    top: 90px;
+    position: sticky;
+}
+
+/* just for testing */
+/* main.col-9 div {
+    height: 500px;
+} */
+
+/* Fix bookmark behavior */
+:target:before {
+    content: "";
+    display: block;
+    height: 90px;
+    /* fixed header height*/
+    margin: -90px 0 0;
+    /* negative fixed header height */
+}
+
+#tdbrand {
+    
+}
+
+/* counter setting */
+article.list {
+    counter-reset: section;
+}
+
+.list h2 {
+    counter-reset: subsection;
+}
+
+.list h2::before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}
+
+.list h3::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}

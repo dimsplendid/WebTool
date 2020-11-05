@@ -1,0 +1,249 @@
+<!-- 
+    index.html
+    Prototype of toolkit 
+        Hope I can build a integrate tools for our team.
+        
+        Date: 2020/10/13
+        Author: Tseng Wei-Hsiang(Andrew)
+        Email: andrew.tseng@innolux.com
+-->
+<DOCTYPE html lang="zh-hant-tw">
+    <html>
+
+    <head>
+        <!--Page imform-->
+        <meta charset="utf-8">
+        <meta name="discription" content="TD tools">
+        <meta name="author" content="Tseng, Wei-Hsiang">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+        <!--Custom Style Setting-->
+        <link rel="stylesheet" href="styles.css">
+
+        <!--Custom Js script-->
+        <script src="myscript.js"></script>
+
+
+        <!--Bootstrap framework-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        <!--set all link open in new tab-->
+        <!-- <base target="_blank">  -->
+
+        <title>TD tool kit</title>
+
+        <!--Math render-->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+        <!--Vega render-->
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+        <!-- Import vega-embed -->
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+        <style media="screen">
+            /* Add space between Vega-Embed links  */
+            .vega-actions a {
+                margin-right: 5px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="head" class="container bg-white">
+            <h1 class="display-1">TD Toolkits</h1>
+        </div>
+
+        <!--need solve tab problem, or change back to nav class-->
+        <nav id="navigation_menu" class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+            <!-- logo -->
+            <a class="navbar-brand" href="#">TD</a>
+            <!-- Toggler/collapsibe Button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.htm">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#intro">INTRO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vegatest">VEGA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">LEARN</a></li>
+
+                </ul>
+            </div>
+            <!-- Web searcch -->
+            <!--             
+            <form class="form-inline" action="#">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+            -->
+        </nav>
+        <!-- Web learning/construction... -->
+        <div id="learn" class="container">
+            <div class="container">
+                <h2> <span class="badge badge-info">Web</span> Learning/Construction Resource...</h2>
+
+                <p>
+                    <a href="https://github.com/goodjack/developer-roadmap-chinese">
+                        Web Dev. RoadMap
+                    </a>
+                    <a href="https://www.w3schools.com">
+                        W3schools
+                    </a>
+                </p>
+
+                <h3> Refferences/Tools </h3>
+                <ol type="1">
+                    <li>Figure Generator
+                        <h4>Vega-Lite</h4>
+
+                        <p> For x-y scattering, schedule bar plot...</p>
+                        <p>
+                            <a href="https://hackmd.io/@sysprog/arm-multitasking?fbclid=IwAR3VD9m0li7L4rlvnqTbtCy3UsCm-v6g05Efytl7bbc1kODi4wOA6nEMfqE"
+                                class="btn btn-info">
+                                Example
+                            </a>
+                            <a href="https://vega.github.io/vega-lite/docs/?fbclid=IwAR3WwDBUyZmSkXAFisdlsbRETwLBVskd3P2ZVyXCx4CkE2Jg8K_-39IZig8"
+                                class="btn btn-info">
+                                Documentation
+                            </a>
+                        </p>
+                        <h4>js-chart?</h4>
+                        <h4>D3.js?</h4>
+                    </li>
+                    <li> Formula Render
+                        <h4>MathJax</h4>
+                        <p>
+                            <a href="https://www.mathjax.org/#gettingstarted">
+                                Documentation
+                            </a>
+                        </p>
+                        <p> It's easy to make your own formula just by using <code>\[...\]</code> or
+                            <code>\(...\)</code></p>
+                        <p>
+                            For example, the response time of liquid crystal is relation to:
+                            \[t=\frac{\gamma_1 d^2}{K_{22}}\]
+                        </p>
+                        <p> Muti-line example: </p>
+                        <p> 銳角 \(\rightarrow 0 < \theta < \frac{\pi}{2} \text{ ,and } 0 < \cos{\theta} < 1\)</p>
+                        <p>
+                            \[\begin{align*}
+                            \sin{\theta} &= 2\cos{\theta} - 1 \\
+                              1-\cos^2{\theta} &= 4\cos^2{\theta} - 4\cos{\theta} +1 \\
+                              5\cos^2{\theta} - 4\cos{\theta} &= 0 \\
+                              \cos{\theta}&=\frac{4}{5}
+                              \end{align*}\]
+                        </p>
+                        <p>
+                            \[
+                            \begin{align*}
+                            &\frac{d^2X}{dt^2} = -\frac{GM}{X^2} \text{ , boundary condition: }X(0) = L, X(T) = 0\\
+                            &\text{let } \tau = t-T \text{ , boundary condition: }X(0) = 0, X(-T) = L\\
+                            &X^2 \cdot \frac{d^2X}{dt^2} = -GM \text{, aka, a constant}\\
+                            &\text{let } x = \alpha t^k\\
+                            &2k+k-2 = 0 \rightarrow k = \frac{2}{3} \text{ and } \alpha = (\frac{9GM}{2})^{\frac{1}{3}}\\
+                            &\Rightarrow X(t) = (\frac{9GM}{2})^{\frac{1}{3}}(-t+(\frac{2L^3}{9GM})^\frac{1}{2})^\frac{2}{3}                           
+                            \end{align*}
+                            \]
+                        </p>
+                        <p>
+                            And you can also use inline formula like this: \(E=mc^2\)
+                        </p>
+                    </li>
+                    <li>
+                        Coding Style
+                        <p>to be find..., maybe latter...</p>
+                        <p>Code example <code>span</code></p>
+                        <code>
+                            span, section, div <br/>
+                            x = 2;<br/>
+                            y = 3;<br/>
+                            z = x + y;
+                            </code>
+                        <p> sample output</p>
+                        <samp>
+                            > z = 5
+                        </samp>
+                    </li>
+                    <li>
+                        Keyboard styel
+                        <p><kbd>crtl + s</kbd></p>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="container" id="test_area">
+
+                <h4> Test Area</h4>
+                <a onclick="changeWorld()">a</a>
+
+                <h2 id="hello">Hello~</h2>
+                <p>
+                    <a href="td_documentation/ushape.htm" target="iframe_a">U-shape</a>
+                    <a href="test_worker.html" target="iframe_a">Test worker</a>
+                </p>
+
+                <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example" style="
+                                    margin: 0;
+                                    width: 100%;
+                                    height: 300px;
+                                    border: 1px solid black;
+                                ">
+                </iframe>
+
+                <!-- Form -->
+                <!-- the input value need test later...-->
+                <h2> HTML Forms </h2>
+
+                <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    0
+                    <input type="range" id="a" name="a" value="50">
+                    100 +
+                    <input type="number" id="b" name="b" value="50">
+                    =
+                    <output name="x" for="a b"></output>
+                    <br /><br />
+                    <input type="submit">
+                </form>
+                <p> Breadcrumb:</p>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                  </nav>
+                  
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                  </nav>
+                  
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+    </body>
+
+    </html>
