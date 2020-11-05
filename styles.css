@@ -71,3 +71,28 @@ article.list {
     counter-increment: subsection;
     content: counter(section) "." counter(subsection) " ";
 }
+
+/* Paper ref style */
+/* some attribute I still don't get it */
+/* And I want to change to align at the end of counter */
+.reference ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.reference li {
+    counter-increment: ref-counter;
+    display: grid;
+    grid-template-columns: 0 1fr;
+    grid-gap: 2rem;
+    align-items: start;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.reference li::before{
+    content: "[" counter(ref-counter) "]";
+}
