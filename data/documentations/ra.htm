@@ -1,0 +1,246 @@
+<!-- The RA table for copy usage -->
+<!-- 
+    learn.htm
+    
+    Date: 2020/10/28
+    Author: Tseng Wei-Hsiang(Andrew)
+    Email: andrew.tseng@innolux.com
+-->
+<DOCTYPE html lang="zh-hant-tw">
+    <html>
+
+    <head>
+        <!--Page imform-->
+        <meta charset="utf-8">
+        <meta name="discription" content="TD tools">
+        <meta name="author" content="Tseng, Wei-Hsiang">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Custom Style Setting-->
+        <link rel="stylesheet" href="../../styles.css">
+        <!-- Bootstrap framework -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- Font Awesome 5: for awsome icons-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <!--set all link open in new tab-->
+        <!-- <base target="_blank">  -->
+
+        <!--Favicon-->
+        <!--FAIL, NEED MODIFIED-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="../../img/favicon_io/site.webmanifest">
+        <title>TD tool kit</title>
+
+        <!--Math render-->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+        <!--Vega render-->
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+        <!-- Import vega-embed -->
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+        <style media="screen">
+            /* Add space between Vega-Embed links  */
+            .vega-actions a {
+                margin-right: 5px;
+            }
+        </style>
+
+    </head>
+
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="90">
+        <div class="container-fluid">
+            <header class="row" id="tdbrand" style="background-color: lightgray;">
+                <div class="col-12">
+                    <h1 class="display-4 text-center"><span class="fas fa-tools"></span>TD Toolkits</h1>
+                    <div class="alert alert-warning alert-dismissible fade show">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Warning!</strong> This site is still under construction.
+                    </div>
+                </div>
+            </header>
+
+            <nav id="topNavbar" class="row bg-dark sticky-top">
+                <div id="topNavbarLink" class="navbar navbar-expand-md bg-dark navbar-dark col-xl-7 col-lg-12">
+                    <a class="navbar-brand" href="#" aria-label="TD" style="padding-left: 2rem;">
+                        <span class="fas fa-tools"></span> TD Toolkits
+                    </a>
+                    <!-- Toggler/Collapsible Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlink">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-nav-scroll navbar-collapse collapse" id="navbarlink">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">DOCUMENTS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">LEARN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="dir" aria-label="breadcrumb" class="col-5 d-none d-xl-block float-right small">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../">~</a></li>
+                        <li class="breadcrumb-item"><a href="../">data</a></li>
+                        <li class="breadcrumb-item"><a href="./">documentations</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">ra</li>
+                    </ol>
+                </div>
+            </nav>
+
+            <div class="row">
+                <nav class="col-3 col-lg-2 d-none d-lg-block" id="myScrollspy">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <main class="col-12 col-lg-10" role="main" style="margin-top: 0px;">
+                    <div id="title">
+                        <h1> RAS application table </h1>
+                        <p>Andrew Tseng 2020-11-06</p>
+                        <p>
+                            <a class="btn btn-info" href="http://ras/" target="_blank">RAS</a>
+                        </p>
+                        <h6>tags: learn, RA, SOP</h6>
+                    </div>
+
+                    <article id="ras-table">
+                        <table>
+                            <tr>
+                                <th colspan="6">Application Info.</td>
+                            </tr>
+                            <tr>
+                                <th>RA NO</th>
+                                <td>auto gen after saving</td>
+                                <th>status</th>
+                                <td>application begin</td>
+                                <th>apply date</th>
+                                <td> 2020/11/06 </td>
+                            </tr>
+                            <tr>
+                                <th colspan="6">Applicant Info.</th>
+                            </tr>
+                            <tr>
+                                <th>applicant</th>
+                                <td>曾煒翔</td>
+                                <th>Employee</th>
+                                <td colspan="3">andrew.tseng</td>
+                            </tr>
+                            <tr>
+                                <th>Employee ID</th>
+                                <td>18023424</td>
+                                <th>Employee ID</th>
+                                <td colspan="3">18023424</td>
+                            </tr>
+                            <tr>
+                                <th>Ext.</th>
+                                <td>5014-13628</td>
+                                <th>Ext.</th>
+                                <td colspan="3">5014-13628</td>
+                            </tr>
+                            <tr>
+                                <th>Department</th>
+                                <td>技術開發三課</td>
+                                <th>Department</th>
+                                <td colspan="3">技術開發三課</td>
+                            </tr>
+                            <tr>
+                                <th colspan="6">Application description</th>
+                            </tr>
+                            <tr>
+                                <th>驗證類別</th>
+                                <td colspan="5">RA 驗證</td>
+                            </tr>
+                            <tr>
+                                <th>Sample quantity</th>
+                                <td></td>
+                                <th>Confidential level</th>
+                                <td>一般</td>
+                                <th>FAB</th>
+                                <td>LCD(T6)</td>
+                            </tr>
+                            <tr>
+                                <th>Product Model</th>
+                                <td>PD066JC-01A</td>
+                                <th>Product ID</th>
+                                <td>2432M0660308K</td>
+                                <th>Display Mode</th>
+                                <td>IPS</td>
+                            </tr>
+                            <tr>
+                                <th>Related RA No.</th>
+                                <td>RA19122409</td>
+                                <th>Related FA No</th>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <th>Emergency level</th>
+                                <td>General</td>
+                                <th>Emergency describe</th>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <th>Test purpose</th>
+                                <td colspan="5">LCT-19-580 TR 3.5 [condition] FOG RA</td>
+                            </tr>
+                            <tr>
+                                <th>Related customer</th>
+                                <td colspan="5">(430)HUAWEI</td>
+                            </tr>
+                            <tr>
+                                <th>Sample site</th>
+                                <td colspan="5">TN</td>
+                            </tr>
+                            <tr>
+                                <th>Sample arrive time</th>
+                                <td>2020/11/09</td>
+                                <th>Test Complete Wish Date</th>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </article>
+                </main>
+            </div>
+
+            <footer class="row page-footer">
+                <div class="container text-warning bg-dark">
+                    <h2>RA warning</h2>
+                    <ol>
+                        <li>LTS, 如果立判就已經沒結晶那就罷了, 如果立判有結晶, 記得要follow RA的OI, 爐內1h回溫後再到室溫2h後再看 給已經結晶的片子有翻盤機會</li>
+                    </ol>
+                </div>
+
+                <div class="col-12 text-center py-3">
+                    andrew.tseng@innolux.com
+                </div>
+            </footer>
+        </div>
+        <!-- JScripts (Web loading faster if put it in the last part.)-->
+
+        <!--Custom Js script-->
+        <script src=".../../.../../myscript.js"></script>
+
+        <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>
