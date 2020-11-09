@@ -34,7 +34,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon_io/favicon-16x16.png">
         <link rel="manifest" href="../../img/favicon_io/site.webmanifest">
-        <title>TD tool kit</title>
+        <title>TD - RA</title>
 
         <!--Math render-->
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -102,14 +102,14 @@
                 <nav class="col-3 col-lg-2 d-none d-lg-block" id="myScrollspy">
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="#RA_application_table">RA APPLICATION</a>
                         </li>
                     </ul>
                 </nav>
 
                 <main class="col-12 col-lg-10" role="main" style="margin-top: 0px;">
                     <div id="title">
-                        <h1> RAS application table </h1>
+                        <h1> RAS</h1>
                         <p>Andrew Tseng 2020-11-06</p>
                         <p>
                             <a class="btn btn-info" href="http://ras/" target="_blank">RAS</a>
@@ -117,100 +117,347 @@
                         <h6>tags: learn, RA, SOP</h6>
                     </div>
 
-                    <article id="ras-table">
-                        <table>
-                            <tr>
-                                <th colspan="6">Application Info.</td>
-                            </tr>
-                            <tr>
-                                <th>RA NO</th>
-                                <td>auto gen after saving</td>
-                                <th>status</th>
-                                <td>application begin</td>
-                                <th>apply date</th>
-                                <td> 2020/11/06 </td>
-                            </tr>
-                            <tr>
-                                <th colspan="6">Applicant Info.</th>
-                            </tr>
-                            <tr>
-                                <th>applicant</th>
-                                <td>曾煒翔</td>
-                                <th>Employee</th>
-                                <td colspan="3">andrew.tseng</td>
-                            </tr>
-                            <tr>
-                                <th>Employee ID</th>
-                                <td>18023424</td>
-                                <th>Employee ID</th>
-                                <td colspan="3">18023424</td>
-                            </tr>
-                            <tr>
-                                <th>Ext.</th>
-                                <td>5014-13628</td>
-                                <th>Ext.</th>
-                                <td colspan="3">5014-13628</td>
-                            </tr>
-                            <tr>
-                                <th>Department</th>
-                                <td>技術開發三課</td>
-                                <th>Department</th>
-                                <td colspan="3">技術開發三課</td>
-                            </tr>
-                            <tr>
-                                <th colspan="6">Application description</th>
-                            </tr>
-                            <tr>
-                                <th>驗證類別</th>
-                                <td colspan="5">RA 驗證</td>
-                            </tr>
-                            <tr>
-                                <th>Sample quantity</th>
-                                <td></td>
-                                <th>Confidential level</th>
-                                <td>一般</td>
-                                <th>FAB</th>
-                                <td>LCD(T6)</td>
-                            </tr>
-                            <tr>
-                                <th>Product Model</th>
-                                <td>PD066JC-01A</td>
-                                <th>Product ID</th>
-                                <td>2432M0660308K</td>
-                                <th>Display Mode</th>
-                                <td>IPS</td>
-                            </tr>
-                            <tr>
-                                <th>Related RA No.</th>
-                                <td>RA19122409</td>
-                                <th>Related FA No</th>
-                                <td colspan="3"></td>
-                            </tr>
-                            <tr>
-                                <th>Emergency level</th>
-                                <td>General</td>
-                                <th>Emergency describe</th>
-                                <td colspan="3"></td>
-                            </tr>
-                            <tr>
-                                <th>Test purpose</th>
-                                <td colspan="5">LCT-19-580 TR 3.5 [condition] FOG RA</td>
-                            </tr>
-                            <tr>
-                                <th>Related customer</th>
-                                <td colspan="5">(430)HUAWEI</td>
-                            </tr>
-                            <tr>
-                                <th>Sample site</th>
-                                <td colspan="5">TN</td>
-                            </tr>
-                            <tr>
-                                <th>Sample arrive time</th>
-                                <td>2020/11/09</td>
-                                <th>Test Complete Wish Date</th>
-                                <td></td>
-                            </tr>
-                        </table>
+                    <article id="ras-table list">
+                        <div id="RA_application_table">
+                            <h2>RA application table</h2>
+                            <a class="btn btn-info"
+                                href="http://ras/IssueApplyAction.do?method=dispInitPage&status=APPLICANT&FUNCTION_ID=F_ISSUE">
+                                RA Application
+                            </a>
+                            <table class="mt-3 mb-3">
+                                <tr>
+                                    <th colspan="6">Application Info.</td>
+                                </tr>
+                                <tr>
+                                    <th>RA NO</th>
+                                    <td>auto gen after saving</td>
+                                    <th>status</th>
+                                    <td>application begin</td>
+                                    <th>apply date</th>
+                                    <td> 2020/11/06 </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">Applicant Info.</th>
+                                </tr>
+                                <tr>
+                                    <th>applicant</th>
+                                    <td>曾煒翔</td>
+                                    <th>Employee</th>
+                                    <td colspan="3">andrew.tseng</td>
+                                </tr>
+                                <tr>
+                                    <th>Employee ID</th>
+                                    <td>18023424</td>
+                                    <th>Employee ID</th>
+                                    <td colspan="3">18023424</td>
+                                </tr>
+                                <tr>
+                                    <th>Ext.</th>
+                                    <td>5014-13628</td>
+                                    <th>Ext.</th>
+                                    <td colspan="3">5014-13628</td>
+                                </tr>
+                                <tr>
+                                    <th>Department</th>
+                                    <td>技術開發三課</td>
+                                    <th>Department</th>
+                                    <td colspan="3">技術開發三課</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">Application description</th>
+                                </tr>
+                                <tr>
+                                    <th>驗證類別</th>
+                                    <td colspan="5">RA 驗證</td>
+                                </tr>
+                                <tr>
+                                    <th>Sample quantity</th>
+                                    <td></td>
+                                    <th>Confidential level</th>
+                                    <td>一般</td>
+                                    <th>FAB</th>
+                                    <td>LCD(T6)</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Model</th>
+                                    <td>PD066JC-01A</td>
+                                    <th>Product ID</th>
+                                    <td>2432M0660308K</td>
+                                    <th>Display Mode</th>
+                                    <td>IPS</td>
+                                </tr>
+                                <tr>
+                                    <th>Related RA No.</th>
+                                    <td>RA19122409</td>
+                                    <th>Related FA No</th>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Emergency level</th>
+                                    <td>General</td>
+                                    <th>Emergency describe</th>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Test purpose</th>
+                                    <td colspan="5">LCT-19-580 TR 3.5 [condition] FOG RA</td>
+                                </tr>
+                                <tr>
+                                    <th>Related customer</th>
+                                    <td colspan="5">(430)HUAWEI</td>
+                                </tr>
+                                <tr>
+                                    <th>Sample site</th>
+                                    <td colspan="5">TN</td>
+                                </tr>
+                                <tr>
+                                    <th>Sample arrive time</th>
+                                    <td id="SAMPLE_DATE">2020/11/09</td>
+                                    <th>Test Complete Wish Date</th>
+                                    <td id="Wish_Date" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">Test discription</th>
+                                </tr>
+                                <tr>
+                                    <th>Pruduct phase</th>
+                                    <td>TR3</td>
+                                    <th>Test type</th>
+                                    <td colspan="3">PD/TD-Material</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">A2.Material change (Please add location , if it belong to new
+                                        material or supplier , it need to RA report )</th>
+                                </tr>
+                                <tr>
+                                    <th>Change</th>
+                                    <th>Category</th>
+                                    <th>classification</th>
+                                    <th>Vendor</th>
+                                    <th>Model</th>
+                                    <th>Discription(Limit 250 words)</th>
+                                </tr>
+                                <tr>
+                                    <td>Before</td>
+                                    <td>LCD material</td>
+                                    <td>LC material</td>
+                                    <td>Merck</td>
+                                    <td>LCT-16-1228</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>After</td>
+                                    <td>LCD material</td>
+                                    <td>LC material</td>
+                                    <td>Merck</td>
+                                    <td>LCT-19-580/td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Before</td>
+                                    <td>LCD material</td>
+                                    <td>PI</td>
+                                    <td>Nisson</td>
+                                    <td>RB024</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>After</td>
+                                    <td>LCD material</td>
+                                    <td>PI</td>
+                                    <td>Nisson</td>
+                                    <td>RB005</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Before</td>
+                                    <td>LCD material</td>
+                                    <td>Main Seal</td>
+                                    <td>積水 SEKISUI</td>
+                                    <td>S-WH25</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>After</td>
+                                    <td>LCD material</td>
+                                    <td>Main Seal</td>
+                                    <td>協立 KYORITSU</td>
+                                    <td>K1M</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">Assign Lab</th>
+                                </tr>
+                                <tr>
+                                    <th>Test Lab:</th>
+                                    <td colspan="5">台南檢測中心</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6">Test plan</th>
+                                </tr>
+                                <tr>
+                                    <td class="p-0" colspan="6">
+                                        <table class="m-0" style="width: 100%;">
+                                            <tr class="text-center">
+                                                <th>Abbr</th>
+                                                <th>Test category</th>
+                                                <th>Test item</th>
+                                                <th>Test condition</th>
+                                                <th>Test to Fail</th>
+                                                <th>Test time</th>
+                                                <th>Test unit</th>
+                                                <th>Test quantity</th>
+                                                <th>Quantity Unit</th>
+                                                <th>Remark</th>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" colspan="10">Cell</th>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" colspan="10">FOG</th>
+                                            </tr>
+                                            <tr>
+                                                <td>RT-IS</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>IS(Image Sticking)</td>
+                                                <td>常溫(30°C +/-5°C)</td>
+                                                <td>N</td>
+                                                <td>
+                                                    normal: 24 <br>
+                                                    快篩(尚未決定非對稱時): 2
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 5 <br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HT-IS</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>IS(Image Sticking)</td>
+                                                <td>50°C</td>
+                                                <td>N</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 240 <br>
+                                                    快篩(尚未決定非對稱時): 2
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 5 <br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HHO 8585</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>HTHHO (High Temp. & High Humidity Operation)</td>
+                                                <td>85℃/85%RH</td>
+                                                <td>Y</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 240
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td>不要偏貼</td>
+                                            </tr>
+                                            <tr>
+                                                <td>HHS 8585</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>HTHHS(High Temp. & High Humidity Storage)</td>
+                                                <td>85℃/85%RH(for module)</td>
+                                                <td>Y</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 240
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td>不要偏貼</td>
+                                            </tr>
+                                            <tr>
+                                                <td>HHO 6595</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>HTHHO (High Temp. & High Humidity Operation)</td>
+                                                <td>65℃/95%RH</td>
+                                                <td>N</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 500
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HHS 6595</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>HTHHS(High Temp. & High Humidity Storage)</td>
+                                                <td>65℃/95%RH</td>
+                                                <td>N</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 500
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HTO</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>HTO (High Temp. Operation)</td>
+                                                <td>70°C</td>
+                                                <td>N</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    PI 膜厚, PIPB, PAUV: 500<br>
+                                                    others: 240<br>
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>LTO</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td>LTO (Low Temp. Operation)</td>
+                                                <td> -20°C</td>
+                                                <td>N</td>
+                                                <td>
+                                                    STD: 1000 <br>
+                                                    Window: 24(window 改 LT start -30°C)
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>REF: 2 <br> STD: 10<br>Window: 5 </td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>LTstart</td>
+                                                <td>環境測試<br/>(Environment test)</td>
+                                                <td></td>
+                                                <td>-30°C</td>
+                                                <td>N</td>
+                                                <td>
+                                                    Window: 24
+                                                </td>
+                                                <td>Hrs</td>
+                                                <td>5</td>
+                                                <td>pcs</td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
                     </article>
                 </main>
             </div>
