@@ -1,0 +1,342 @@
+<!-- 
+    index.html
+    Prototype of toolkit 
+        Hope I can build a integrate tools for our team.
+        
+        Date: 2020/10/13
+        Author: Tseng Wei-Hsiang(Andrew)
+        Email: andrew.tseng@innolux.com
+-->
+<DOCTYPE html lang="zh-hant-tw">
+    <html>
+
+    <head>
+        <!--Page imform-->
+        <meta charset="utf-8">
+        <meta name="discription" content="TD tools">
+        <meta name="author" content="Tseng, Wei-Hsiang">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Custom Style Setting-->
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            
+        </style>
+        <!-- Bootstrap framework -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- Font Awesome 5: for awsome icons-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <!--set all link open in new tab-->
+        <!-- <base target="_blank">  -->
+
+        <!--Favicon-->
+        <!--FAIL, NEED MODIFIED-->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon_io/site.webmanifest">
+        <title>TD tool kit</title>
+
+        <!--Math render-->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+        <!--Vega render-->
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+        <!-- Import vega-embed -->
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+        <style media="screen">
+            /* Add space between Vega-Embed links  */
+            .vega-actions a {
+                margin-right: 5px;
+            }
+        </style>
+
+    </head>
+
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="80">
+        <header class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="TD">
+                <span class="fas fa-tools"></span> TD Toolkits
+            </a>
+            <div class="navbar-nav-scroll">
+                <ul class="navbar-nav bd-navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">DOCUMENTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./learn.htm">LEARN</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-3 col-lg-2" id="myScrollspy">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#intro">INTRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#todo">TODO LIST</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <main class="col-9 col-lg-10" role="main" style="margin-top: 80px;">
+                    <div id="home" class="container">
+                        <div class="Jumbotron">
+                            <h2 id="intro"> Intro </h2>
+                            <p> Hope that I can build an integrate system for our team, and make it easy to maintain.
+                            </p>
+                            <blockquote class="blockquote">
+                                <p> 任爾東南西北風，立根原在破巖中。</p>
+                                <footer class="blockquote-footer">鄭燮《竹石》 </footer>
+                            </blockquote>
+                        </div>
+
+                        <!-- Todo list -->
+                        <div class="container bg-warning" id="todo list">
+
+                            <h2 id="todo">Todo list:</h2>
+                            <div class="progress m-1">
+                                <div class="progress-bar bg-secondary" style="width: 15%">15%</div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <ol type="1">
+                                        <li> Simple Interpolation </li>
+                                        <li> U-shape calculator </li>
+                                        <li> EDC Data analysis </li>
+                                        <li> project manager & schedule generator
+                                            <ul>
+                                                <li> Gatte Bar generator</li>
+                                                <li> Scrum table</li>
+                                                <li> Report template</li>
+                                            </ul>
+                                        </li>
+                                        <li> Database
+                                            <ul>
+                                                <li> Documentization data from the public server </li>
+                                                <li> How to Orginize?</li>
+                                                <li> Searching? maybe jQueary, SOL-lite, nodes.js...?
+                                                    <ul>
+                                                        <li>tag system?</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li> RA form autofill
+                                            ` <ul>
+                                                <li> Process Condition vs. RA test items </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            V-T curve and Gamma value
+                                        </li>
+                                        <li> LCDP f value generator</li>
+                                        <li> Slide template (long-term: generator)</li>
+                                        <li> Tech Documentation
+                                            <ol>
+                                                <li>short-term objective: organize the data as much/soon as possible.
+                                                    <p>
+                                                        Document Example:
+                                                        <a href="td_documentation/lc.htm" role="button"
+                                                            class="btn btn-info">
+                                                            LC
+                                                        </a>
+                                                        <a href="#" role="button" class="btn btn-info">
+                                                            黑斑 ISSUE
+                                                        </a>
+                                                    </p>
+                                                </li>
+                                                <li>mid-term objective: documentation standarization
+                                                    <ul>
+                                                        <li> The comment or explanation of words can maybe use the
+                                                            feature
+                                                            "bootstrap
+                                                            popover".
+                                                        </li>
+                                                        <li> Scrollspy seems good to make the slide/presentation.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Long-term objective: make a bunch site just like a wikipedia</li>
+                                            </ol>
+                                            <div class="border border-dark"> Some topics I think now...
+                                                <ul id="todo documents">
+                                                    <li> LC Response Time</li>
+                                                    <li> The principle of IS & U-shape tool
+                                                        <p><a class="btn btn-info"
+                                                                href="td_documentation/ushape.htm">U-shape</a></p>
+                                                    </li>
+                                                    <li> The process and condition of Factories
+                                                        <p><a class="btn btn-info"
+                                                                href="td_documentation/factory_process.htm">Factory
+                                                                Process</a>
+                                                        </p>
+                                                    </li>
+                                                    <li> The SOP of anything...</li>
+                                                    <li> Roadmap of supplyments...</li>
+                                                    <li> 材料套餐 & RA result</li>
+                                                    <li> Issue 整理與後續追蹤</li>
+                                                    <li> Getting-Started documentation</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li> Comment system!?
+                                            <ul>
+                                                <li> Send feedback</li>
+                                                <li> Leave comments
+                                                    <p> If I can construct, maybe I can use the bootstrap media class.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li> Fun Facts </li>
+                                        <li> My Favorites:[OTAKU CAUTION!]
+                                            <ol>
+                                                <li> Vtubers </li>
+                                                <li> Games
+                                                    <ol> Vulkan - powerful 3D renering techniques</ol>
+                                                </li>
+                                                <li> QM
+                                                    <ol>
+                                                        <li>Linear Algebra</li>
+                                                        <li>QM computer programming?</li>
+                                                    </ol>
+                                                </li>
+                                                <li>
+                                                    dynamic programming
+                                                </li>
+                                                <li>plotting</li>
+                                            </ol>
+                                        </li>
+                                        <li> Image gallary?</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-1">
+                                    <figure class="m-1">
+                                        <a href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g"
+                                            data-toggle="tooltip" title="Let me intro you the cutest shark!">
+                                            <img class="rounded" id="a" src="img/a.png"
+                                                style="width:205px; height:174px;" alt="a for shark">
+                                        </a>
+                                        <figcaption> Fig 1. - SAME desu</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="contact" class="container">
+                        <h2> Member List </h2>
+                        <p> The members of TD</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Depart.</th>
+                                    <th>Tel</th>
+                                    <th>Cel</th>
+                                    <th>E-mail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>曾煒翔</td>
+                                    <td>技術開發一部/三課</td>
+                                    <td>514-13628</td>
+                                    <td>550-23477</td>
+                                    <td>andrew.tseng@innolux.com</td>
+                                </tr>
+                                <tr>
+                                    <td>陳致諭</td>
+                                    <td>技術開發一部/一課</td>
+                                    <td>514-13618</td>
+                                    <td>550-16788</td>
+                                    <td>chihyu.chen@innolux.com</td>
+                                </tr>
+                                <tr>
+                                    <td>周勝智</td>
+                                    <td></td>
+                                    <td>550-13615</td>
+                                </tr>
+                                <tr>
+                                    <td>趙尚達</td>
+                                    <td>技術開發一部/二課</td>
+                                    <td>513-65259</td>
+                                    <td>550-33966<br />0918-341-966</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                </tr>
+                                <tr>
+                                    <td>陳宜家</td>
+                                    <td>技術開發一部/一課</td>
+                                    <td>513-64755</td>
+                                    <td>550-24718<br />0975-170-288</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>康良豪</td>
+                                    <td>技術開發一部</td>
+                                    <td>513-64756</td>
+                                    <td>550-33676<br />0931-358-175</td>
+                                </tr>
+                                <tr>
+                                    <td>郭冠宏</td>
+                                    <td>技術開發二處</td>
+                                    <td>513-65718</td>
+                                    <td>550-33676<br />0922-580-938</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </main>
+            </div>
+            
+
+
+            <!-- Contact information -->
+            <div class="row">
+                <footer class="container-fluid jumbotron text-center" style="margin-bottom: 0px;">
+                    Tseng Wei-Hsiang <br />
+                    Email: andrew.tseng@innolux.com <br />
+                    Cell: 550-23477
+                </footer>
+            </div>
+        </div>
+
+        <!-- JScripts (Web loading faster if put it in the last part.)-->
+
+        <!--Custom Js script-->
+        <script src="myscript.js"></script>
+
+        <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+    </body>
+
+    </html>
