@@ -40,7 +40,7 @@ TD toolkits (The file )
     |       |               |
     |       |               +--- Printer install
     |       |
-    |       +--- Material Data Base
+    |       +--- Material Data Base(MDB)
     |       |       |
     |       |       +--- LC, PI, Seal
     |       |       |       |
