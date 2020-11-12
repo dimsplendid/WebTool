@@ -99,8 +99,9 @@
             <!-- Container for the visualization -->
             <div id="vis"></div>
 
-
+            <div id="boxPlot"></div>
         </div>
+        <div id="boxPlot"></div>
         <script>
             // Assign the specification to a local variable vlSpec.
             var vlSpec = {
@@ -134,6 +135,25 @@
             // Embed the visualization in the container with id 'vis'
             vegaEmbed('#vis', vlSpec);
         </script>
+        <script>
+            var boxPlotSpec = {
+                "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+                "title": "拉伸式 peeling 比較",
+                "description": "",
+                "data": {"url": "./peeling.json"},
+                "mark": "boxplot",
+                "encoding": {
+                    "x": {"field": "Condition", "type": "nominal"},
+                    "y": {
+                        "field": "Force(kgf)",
+                        "type": "quantitative",
+                        "scale": { "zero": false }
+                    }
+                }
+            }
+            // Boxplot
+            vegaEmbed("#boxPlot", boxPlotSpec)
+        </script>
     </body>
+
     </html>
-    

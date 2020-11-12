@@ -1,0 +1,642 @@
+[
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.658
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 11.516
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 14.668
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.006
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.593
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.097
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.303
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 14.214
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.666
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.167
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.418
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.056
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.443
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.505
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.002
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.584
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.222
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 15.838
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 16.086
+  },
+  {
+    "Condition": "STD",
+    "Force(kgf)": 14.136
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.97
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.1
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 12.89
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.59
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.24
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.77
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.88
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.89
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.63
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.08
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.41
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.91
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.22
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.55
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.63
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.53
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.58
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.4
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.8
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.07
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.56
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 12.88
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.36
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.63
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.24
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.87
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.3
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.98
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 14.26
+  },
+  {
+    "Condition": "SEUV 5000",
+    "Force(kgf)": 13.43
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.35
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.85
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.98
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.19
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.23
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.96
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.79
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 15.95
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.41
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.4
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.12
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.68
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.83
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.35
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.14
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.93
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.66
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.89
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 12.74
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.93
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.42
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.11
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.68
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.68
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.01
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.87
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.99
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 14.67
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 13.68
+  },
+  {
+    "Condition": "SEUV 7000",
+    "Force(kgf)": 16.36
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.19
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.26
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.82
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.57
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.66
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.68
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.36
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.8
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 16.14
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.57
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.54
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 15.85
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 15.6
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 15.27
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 16.32
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.76
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.49
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.63
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.62
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.53
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.94
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.74
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.57
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.91
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 13.38
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 15.04
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.28
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.85
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.16
+  },
+  {
+    "Condition": "���e��(> 600 um)",
+    "Force(kgf)": 14.36
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.526
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 13.863
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.591
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.778
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 14.893
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.539
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.878
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.439
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.101
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.53
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.756
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.226
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.319
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.286
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.853
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.672
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.298
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.174
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 15.873
+  },
+  {
+    "Condition": "ODF to SEUV 120s",
+    "Force(kgf)": 16.42
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.03
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.05
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.51
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.98
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.9
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.28
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.1
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.98
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.2
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.72
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.06
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.48
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.22
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.86
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.41
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.09
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.84
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.08
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 12.79
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.51
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.61
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.59
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.56
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.06
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.14
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.6
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 14.33
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 15.05
+  },
+  {
+    "Condition": "ODF to SEUV 160s",
+    "Force(kgf)": 13.39
+  }
+]
